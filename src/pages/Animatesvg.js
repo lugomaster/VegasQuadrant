@@ -16,7 +16,7 @@ export function Animatesvg(props) {
         </defs>        
         <rect width="100%" height="100%" fill="white" />
         <g>
-            <SvgBlurImage xlinkHref={require(`./Archive/cityscape.png`)} height="100%" width="300%">
+            <SvgBlurImage xlinkHref={require(`./Archive/CItyscape.png`)} height="100%" width="300%">
                 <animateTransform attributeName="transform"
                     type="translate"
                     from="-200 0"
