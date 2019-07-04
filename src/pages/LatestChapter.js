@@ -6,7 +6,7 @@ import { Link } from "gatsby";
 
 let GetCurrentTime = new Date();
 let CurrentTime = GetCurrentTime.toLocaleTimeString()
-CurrentTime = CurrentTime.slice(0, -6);
+CurrentTime = CurrentTime.slice(0, -9);
 let TickerTime = GetCurrentTime.toLocaleTimeString()
 TickerTime = TickerTime.slice(0, -3);
 // let CurrentTime = "18";
