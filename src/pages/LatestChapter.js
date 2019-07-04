@@ -76,24 +76,24 @@ const Parallax = () => (
           <filter id="blurMe">
             <feGaussianBlur stdDeviation="1.5" />
           </filter>
-          <image xlinkHref={require(`./Times/${CurrentTime}/Back.png`)} height="100%" width="100%" />
-          <image xlinkHref={require(`./Times/${CurrentTime}/Clouds.png`)} y="-10%" height="100%" width="100%">
+          <image xlinkHref={require(`./times/${CurrentTime}/Back.png`)} height="100%" width="100%" />
+          <image xlinkHref={require(`./times/${CurrentTime}/Clouds.png`)} y="-10%" height="100%" width="100%">
             <animate attributeType="XML" attributeName="x" from="0" to="1400"
               dur="280s" repeatCount="indefinite" />
           </image>
-          <image xlinkHref={require(`./Times/${CurrentTime}/PelicanFlipped.png`)} x="-400" y="25%" height="5%" width="5%">
+          <image xlinkHref={require(`./times/${CurrentTime}/PelicanFlipped.png`)} x="-400" y="25%" height="5%" width="5%">
             <animate attributeType="XML" attributeName="x" from="2000" to="-200"
               dur="18s" repeatCount="0" begin="1s" />
           </image>
-          <image xlinkHref={require(`./Times/${CurrentTime}/Clouds.png`)} y="-10%" height="100%" width="100%">
+          <image xlinkHref={require(`./times/${CurrentTime}/Clouds.png`)} y="-10%" height="100%" width="100%">
             <animate attributeType="XML" attributeName="x" from="-1400" to="0"
               dur="280s" repeatCount="indefinite" />
           </image>
-          <image xlinkHref={require(`./Times/${CurrentTime}/CloudsFront.png`)} x="-10%" height="30%" width="30%">
+          <image xlinkHref={require(`./times/${CurrentTime}/CloudsFront.png`)} x="-10%" height="30%" width="30%">
             <animate attributeType="XML" attributeName="x" from="-100" to="1500"
               dur="280s" repeatCount="indefinite" />
           </image>
-          <image xlinkHref={require(`./Times/${CurrentTime}/Ship.png`)} y="50%" x="-500" height="5%" width="5%">
+          <image xlinkHref={require(`./times/${CurrentTime}/Ship.png`)} y="50%" x="-500" height="5%" width="5%">
             <animate attributeType="XML" attributeName="x" from="1500" to="0"
               dur="45s" repeatCount="0" />
           </image>
@@ -130,7 +130,7 @@ const Parallax = () => (
               dur="0.1s" repeatCount="0" begin="2.9s" />
           </circle>
 
-          <image id="anim1" xlinkHref={require(`./Times/${CurrentTime}/WarpShip.png`)} height="4%" width="4%">
+          <image id="anim1" xlinkHref={require(`./times/${CurrentTime}/WarpShip.png`)} height="4%" width="4%">
             <animateTransform attributeName="transform"
               attributeType="XML"
               type="translate"
@@ -140,7 +140,7 @@ const Parallax = () => (
               repeatCount="0" begin="3s" />
           </image>
 
-          <image xlinkHref={require(`./Times/${CurrentTime}/WarpShip.png`)} height="4%" width="4%">
+          <image xlinkHref={require(`./times/${CurrentTime}/WarpShip.png`)} height="4%" width="4%">
             <animateTransform attributeName="transform"
               attributeType="XML"
               type="translate"
@@ -160,7 +160,7 @@ const Parallax = () => (
               yPercent: 0,
             }}
           >
-            <image xlinkHref={require(`./Times/${CurrentTime}/Middle.png`)} height="100%" width="100%" />
+            <image xlinkHref={require(`./times/${CurrentTime}/Middle.png`)} height="100%" width="100%" />
           </Tween>
           <Tween
             position="0"
@@ -171,13 +171,13 @@ const Parallax = () => (
               yPercent: 0,
             }}
           >
-            <image xlinkHref={require(`./Times/${CurrentTime}/Pelican.png`)} x="-400" y="35%" height="20%" width="20%">
+            <image xlinkHref={require(`./times/${CurrentTime}/Pelican.png`)} x="-400" y="35%" height="20%" width="20%">
               <animate id="pelican" attributeType="XML" attributeName="x" from="-400" to="2000"
                 dur="18s" repeatCount="0" begin="18s" />
             </image>
-            <image xlinkHref={require(`./Times/${CurrentTime}/Front.png`)} height="100%" width="100%" />
+            <image xlinkHref={require(`./times/${CurrentTime}/Front.png`)} height="100%" width="100%" />
           </Tween>
-          <image xlinkHref={require(`./Times/TVScreen.png`)} x="47px" y="390px" height="49%" width="49%" />
+          <image xlinkHref={require(`./times/TVScreen.png`)} x="47px" y="390px" height="49%" width="49%" />
 
           <TvSGV width="44.1%" height="35%" x="78px" y="454px">
 
@@ -188,7 +188,7 @@ const Parallax = () => (
                 <feBlend in="SourceGraphic" in2="floodFill" mode="multiply" />
               </filter>
             </defs>
-            <image opacity="0.5" xlinkHref={require(`./Comics/2019-07/01-Prologue01/thumbnailart.png`)} x="15%" height="70%" width="70%" />
+            <image opacity="0.5" xlinkHref={require(`./comics/2019-07/01-Prologue01/thumbnailart.png`)} x="15%" height="70%" width="70%" />
             <rect fill="white" width="99%" height="10%" y="80%" x="2px" />
             <rect id="Headlines" fill="white" width="99%" height="25%" y="65%" x="2px" />
             <HeadlineText y="75%" x="20px">
