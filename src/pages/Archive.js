@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import { Animatesvg } from "./archive/Animatesvg";
+import { Animatesvg } from "./archive/Animatesvg.js";
 import { Link } from "gatsby";
 
 let LightAnimation = keyframes`
