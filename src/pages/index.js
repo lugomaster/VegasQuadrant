@@ -456,10 +456,10 @@ export default class IndexPage extends React.Component {
                          <Why x="710" y="710">Chapter</Why>
                         </Button>
 
-                        <Button to="/Archive" className="desktop">
+                        <Button to="/archive" className="desktop">
                             <rect opacity="0.6" x="950" y="492" stroke="black" width="210" height="100" fill="white" />
                             <rect x="950" y="490" stroke="white" width="210" height="100" fill="transparent" />
-                            <Why x="960" y="545">Archive</Why>
+                            <Why x="960" y="545">archive</Why>
                         </Button>
 
                         <PatreonButton href="https://www.patreon.com/LugoMaster" target="_blank" rel="noopener noreferrer" className="desktop">
@@ -486,10 +486,10 @@ export default class IndexPage extends React.Component {
                             <Why x="66%" y="135%">Patreon</Why>
                         </PatreonButton>
 
-                        <Button to="/Archive" className="mobile">
+                        <Button to="/archive" className="mobile">
                             <rect x="35%" y="125%" width="24%" height="20%" stroke="black" fill="white" opacity="0.5"/>
                             <rect x="35%" y="125%" width="24%" height="20%"stroke="white" fill="transparent" />
-                            <Why x="36%" y="135%">Archive</Why>
+                            <Why x="36%" y="135%">archive</Why>
                         </Button>
                     </InitialDelayG>
 
