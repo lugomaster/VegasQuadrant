@@ -81,15 +81,15 @@ const Parallax = () => (
             <animate attributeType="XML" attributeName="x" from="0" to="1400"
               dur="280s" repeatCount="indefinite" />
           </image>
-          <image xlinkHref={require(`./times/${CurrentTime}/PelicanFlipped.png`)} x="-400" y="25%" height="5%" width="5%">
+          <image xlinkHref={require(`./times/18/PelicanFlipped.png`)} x="-400" y="25%" height="5%" width="5%">
             <animate attributeType="XML" attributeName="x" from="2000" to="-200"
               dur="18s" repeatCount="0" begin="1s" />
           </image>
-          <image xlinkHref={require(`./times/${CurrentTime}/Clouds.png`)} y="-10%" height="100%" width="100%">
+          <image xlinkHref={require(`./times/18/Clouds.png`)} y="-10%" height="100%" width="100%">
             <animate attributeType="XML" attributeName="x" from="-1400" to="0"
               dur="280s" repeatCount="indefinite" />
           </image>
-          <image xlinkHref={require(`./times/${CurrentTime}/CloudsFront.png`)} x="-10%" height="30%" width="30%">
+          <image xlinkHref={require(`./times/18/CloudsFront.png`)} x="-10%" height="30%" width="30%">
             <animate attributeType="XML" attributeName="x" from="-100" to="1500"
               dur="280s" repeatCount="indefinite" />
           </image>
