@@ -1,6 +1,6 @@
 import React from "react"
 import styled, { keyframes } from "styled-components"
-import logo from "./menuImages/Logo.png"
+import logo from "./menuImages/logo.png"
 import { Tween } from 'react-gsap';
 import { AWebcomicByDonal } from "./indexComponents/AWebcomicbyDonal";
 import { Link } from "gatsby";

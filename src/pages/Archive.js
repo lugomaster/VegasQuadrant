@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import { Animatesvg } from "./Archive/Animatesvg";
+import { Animatesvg } from "./archive/Animatesvg";
 import { Link } from "gatsby";
 
 let LightAnimation = keyframes`
@@ -531,26 +531,26 @@ const Parallax = () => (
       <filter id="blur" x="0" y="0">
         <feGaussianBlur in="SourceGraphic" stdDeviation="15" />
       </filter>
-      <SvgBlurImage xlinkHref={require(`./Archive/Archive.png`)} height="75%" width="75%" />
-      <image xlinkHref={require(`./Archive/Archive.png`)} height="75%" width="75%" />
+      <SvgBlurImage xlinkHref={require(`./Archive/archive.png`)} height="75%" width="75%" />
+      <image xlinkHref={require(`./Archive/archive.png`)} height="75%" width="75%" />
     </Archive>
 
     <Wrapper >
 
 
       <div className="archive">
-        <img src={require(`./Archive/Archive.png`)} height="100%" width="100%" />
+        <img src={require(`./Archive/archive.png`)} height="100%" width="100%" />
       </div>
       <div className="tape1">
-        <img src={require(`./Archive/Prologue01.png`)} height="100%" width="100%" />
+        <img src={require(`./Archive/prologue01.png`)} height="100%" width="100%" />
         <h3>Prologue #1: Taylor</h3>
       </div>
       <div className="tape2">
-        <img src={require(`./Archive/Prologue02.png`)} height="100%" width="100%" />
+        <img src={require(`./Archive/prologue02.png`)} height="100%" width="100%" />
         <h3>Prologue #2: Sky</h3>
       </div>
       <div className="tape3">
-        <img src={require(`./Archive/Prologue03.png`)} height="100%" width="100%" />
+        <img src={require(`./Archive/prologue03.png`)} height="100%" width="100%" />
         <h3>Prologue #3: Jin</h3>
       </div>
       <Link className="tape4" to="/">
@@ -575,9 +575,9 @@ const Parallax = () => (
             </filter>
           </defs>
           <Animatesvg />
-          <image xlinkHref={require(`./Archive/Layout.png`)} height="100%" width="100%" />
-          <SvgLightImage xlinkHref={require(`./Archive/LayoutLight.png`)} height="100%" width="100%" />
-          <SvgBlendImage xlinkHref={require(`./Archive/Prologue01Taylor.png`)} height="100%" width="100%">
+          <image xlinkHref={require(`./Archive/layout.png`)} height="100%" width="100%" />
+          <SvgLightImage xlinkHref={require(`./Archive/layoutLight.png`)} height="100%" width="100%" />
+          <SvgBlendImage xlinkHref={require(`./Archive/prologue01Taylor.png`)} height="100%" width="100%">
             <animateTransform attributeName="transform"
               type="translate"
               from="0 0"
@@ -587,8 +587,8 @@ const Parallax = () => (
               repeatCount="indefinite"
             />
           </SvgBlendImage>
-          <SvgBlurImage xlinkHref={require(`./Archive/Prologue01Taylor.png`)} height="100%" width="100%" opacity="0.4" />
-          <SvgLightImage xlinkHref={require(`./Archive/Prologue01TaylorLight.png`)} height="100%" width="100%">
+          <SvgBlurImage xlinkHref={require(`./Archive/prologue01Taylor.png`)} height="100%" width="100%" opacity="0.4" />
+          <SvgLightImage xlinkHref={require(`./Archive/prologue01TaylorLight.png`)} height="100%" width="100%">
             <animateTransform attributeName="transform"
               type="translate"
               from="0 0"
@@ -619,7 +619,7 @@ const Parallax = () => (
             </filter>
           </defs>
           <Animatesvg />
-          <SvgBlendImageGreen xlinkHref={require(`./Archive/Layout.png`)} height="100%" width="100%" />
+          <SvgBlendImageGreen xlinkHref={require(`./Archive/layout.png`)} height="100%" width="100%" />
           <SvgLightImage xlinkHref={require(`./Archive/layoutLight.png`)} height="100%" width="100%" />
           <Grain xlinkHref={require(`./Archive/grain.png`)} x="-500px" y="-500px" height="200%" width="200%" />
           <rect width="25%" height="100%" x="-250px" fill="black" />
@@ -641,7 +641,7 @@ const Parallax = () => (
             </filter>
           </defs>
           <Animatesvg />
-          <SvgBlendImageYellow xlinkHref={require(`./Archive/Layout.png`)} height="100%" width="100%" />
+          <SvgBlendImageYellow xlinkHref={require(`./Archive/layout.png`)} height="100%" width="100%" />
           <SvgLightImage xlinkHref={require(`./Archive/layoutLight.png`)} height="100%" width="100%" />
           <Grain xlinkHref={require(`./Archive/grain.png`)} x="-500px" y="-500px" height="200%" width="200%" />
           <rect width="25%" height="100%" x="-250px" fill="black" />
@@ -663,7 +663,7 @@ const Parallax = () => (
             </filter>
           </defs>
           <Animatesvg />
-          <SvgBlendImageOrange xlinkHref={require(`./Archive/Layout.png`)} height="100%" width="100%" />
+          <SvgBlendImageOrange xlinkHref={require(`./Archive/layout.png`)} height="100%" width="100%" />
           <SvgLightImage xlinkHref={require(`./Archive/layoutLight.png`)} height="100%" width="100%" />
           <Grain xlinkHref={require(`./Archive/grain.png`)} x="-500px" y="-500px" height="200%" width="200%" />
           <rect width="25%" height="100%" x="-250px" fill="black" />
@@ -680,10 +680,10 @@ const Parallax = () => (
 
     </Wrapper>
     <BackgroundContainer>
-      <Background className="desktop" src={require(`./Archive/Background.png`)} height="100%" width="100%" />
+      <Background className="desktop" src={require(`./Archive/background.png`)} height="100%" width="100%" />
       <svg className="mobile" width="100%" height="100%">
         <rect fill="grey" width="100%" height="100%" />
-        <image xlinkHref={require(`./Archive/BackgroundMobile.png`)} width="100%" height="100%" />
+        <image xlinkHref={require(`./Archive/backgroundMobile.png`)} width="100%" height="100%" />
         <rect fill="black" width="100%" height="15%" />
         <rect fill="black" width="100%" height="20%" y="80%"/>
       </svg>

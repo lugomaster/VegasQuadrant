@@ -210,7 +210,7 @@ const Parallax = () => (
             
           </TvSGV>
           <HoverSvg width="44.1%" height="35%" x="78px" y="454px">
-          <Link to="/Comics/2019-07/01-Prologue01/Message">
+          <Link to="/Message">
             <rect width="100%" height="100%" fill="grey" />
             </Link>
             </HoverSvg>
