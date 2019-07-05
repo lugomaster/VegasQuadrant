@@ -468,11 +468,11 @@ export default class IndexPage extends React.Component {
                             <Why x="960" y="660">Patreon</Why>
                         </PatreonButton>
 
-                        <Button to="/LatestChapter" className="mobile">
+                        <PatreonButton href="/LatestChapter" className="mobile">
                             <rect x="35%" y="65%" width="55%" height="20%" stroke="black" fill="white" opacity="0.5"/>
                             <rect x="35%" y="65%" width="55%" height="20%"stroke="white" fill="transparent" />
                             <Why className="mobileWhy" x="40%" y="75%">Latest Chapter</Why>
-                        </Button>
+                        </PatreonButton>
 
                         <Button className="mobile">
                             <rect x="35%" y="95%" width="55%" height="20%" stroke="black" fill="white" opacity="0.5"/>
